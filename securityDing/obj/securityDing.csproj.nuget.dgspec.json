@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\timsm\\Downloads\\sequrityTest\\securityDing\\securityTestDing\\securityDing\\securityDing.csproj": {}
+    "C:\\Projects\\SecurityDing\\securityDing\\securityDing.csproj": {}
   },
   "projects": {
-    "C:\\Users\\timsm\\Downloads\\sequrityTest\\securityDing\\securityTestDing\\securityDing\\securityDing.csproj": {
+    "C:\\Projects\\SecurityDing\\securityDing\\securityDing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\timsm\\Downloads\\sequrityTest\\securityDing\\securityTestDing\\securityDing\\securityDing.csproj",
+        "projectUniqueName": "C:\\Projects\\SecurityDing\\securityDing\\securityDing.csproj",
         "projectName": "securityDing",
-        "projectPath": "C:\\Users\\timsm\\Downloads\\sequrityTest\\securityDing\\securityTestDing\\securityDing\\securityDing.csproj",
-        "packagesPath": "C:\\Users\\timsm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\timsm\\Downloads\\sequrityTest\\securityDing\\securityTestDing\\securityDing\\obj\\",
+        "projectPath": "C:\\Projects\\SecurityDing\\securityDing\\securityDing.csproj",
+        "packagesPath": "C:\\Users\\sembr\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\SecurityDing\\securityDing\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\timsm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sembr\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,48 +39,17 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[7.0.2, )"
-            },
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[7.0.2, )"
-            },
-            "Microsoft.AspNetCore.Identity.UI": {
-              "target": "Package",
-              "version": "[7.0.2, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[7.0.2, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "target": "Package",
-              "version": "[7.0.2, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
